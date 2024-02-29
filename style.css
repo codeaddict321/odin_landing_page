@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+  
+
+
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.main_container{
+    background-color: #1f2937;
+    padding-bottom: 2rem;
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center;
+    
+  
+
+}
+
+.links{
+    display: flex;
+    list-style: none;
+  gap: 1.5rem;
+  color:#e5e7eb;
+  font-size:18px;
+}
+
+
+.hero_section{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 2rem 4rem;
+
+}
+.hero_text{
+    padding: 4rem;
+}
+.hero_section h1{
+    font-size:48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.logo{
+    color: #f9faf8;
+    font-size: 24px;;
+}
+
+.subtext{
+    color:#e5e7eb;
+    font-size:18px;
+}  
+
+
+
+button{
+    padding: 1rem 1.5rem;
+    color: white;
+    background-color: #3883f8;
+    border:none;
+    font-size: 1.3rem;
+    border-radius: 10px;
+}
+
+.random_imgs {
+    display: flex;
+    list-style: none;
+   justify-content: center;
+   gap: 1rem;
+}
+.random_imgs li{
+    width: 200px;
+}
+.random_imgs p{
+    text-align: center;
+    color:#8b8b8b;
+
+}
+
+/* some info */
+.some_info{
+    margin: 2.5rem 0  4rem;
+}
+
+.some_info_title{
+  font-size: 36px;
+  text-align:center;
+  font: bolder;
+  color: #1f2937;
+  margin-bottom:2.5rem;
+}
+
+
+/* quote */
+.quote_section{
+    background-color: #e5e7eb;
+   
+}
+.quote_container{
+    margin:  4rem ;
+    padding: 4rem;
+}
+
+.quote_para{
+    font-size: 36px;
+    color:#1f2937
+
+}
+.quote_name{
+    font-weight: bold;
+    font-size: 36px;
+    text-align: end;
+}
+
+
+/* sign up */
+
+.signup_section{
+
+    max-width: 900px;
+    margin: 4rem auto;
+}
+
+.signup_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3883f8;
+    padding: 3rem 4rem;
+    border-radius: 10px;
+}
+.signup_container  h2{
+ color: white;
+}
+.signup_container  p{
+    color: rgb(219, 217, 217);
+   }
+   
+
+.sign_btn{
+    border: 1px solid white;
+    padding: .5rem 1rem;
+}
+
+
+/* footer */
+
+footer{
+    padding: 4rem;
+   background-color:#1f2937;
+   color: white;
+   text-align: center;
+}
+
+footer p{
+    color: #f9faf8;
+}
